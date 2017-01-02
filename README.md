@@ -2,7 +2,7 @@
 Ping-Pong Of Slightly Increased Morbidity 
 ("Ping-Pong of Death" sounded too harsh)
 
-An MPI benchmark that for each rank:
+An MPI stress test that for each rank:
 
 - iterates through every other rank in ascending order and does an MPI_Isend
 - opens an output file called "pp_out.\<MY_RANK\>.dat"
